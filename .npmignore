@@ -1,0 +1,25 @@
+# Coverage reports
+coverage
+
+# Editor-generated files
+.idea
+*.iml
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Ignore unused files
+src
+test
+.prettierrd.json
+.prettier.json
+tsconfig.json
+yarn-error.log
+jest.config.js
+
+# API keys and secrets
+.env
+
+# Misc
+yarn.lock
