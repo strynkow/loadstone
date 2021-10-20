@@ -5,6 +5,8 @@ export interface Benchmark {
   name: string;
   start_time: number;
   end_time: number;
+  error: boolean;
+  error_message: string;
 }
 
 class Benchmarker {
@@ -20,7 +22,15 @@ class Benchmarker {
 
   async benchmark(name: string, funct: Function) {
     const start_time = Date.now();
-    const result = await funct();
+    let error = false;
+    let error_message = '';
+    let result = null;
+    try {
+      result = await funct();
+    } catch (e: any) {
+      error = true;
+      error_message = e.message;
+    }
     const end_time = Date.now();
 
     this.queue.push({
@@ -28,7 +38,13 @@ class Benchmarker {
       name,
       start_time,
       end_time,
+      error,
+      error_message,
     });
+
+    if (error) {
+      throw new Error(`${error_message}`);
+    }
 
     return result;
   }

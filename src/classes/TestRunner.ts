@@ -37,7 +37,6 @@ class TestRunner {
     const promises: Promise<any>[] = [];
     promises.push(this.benchmarker.start(this.flush_function, this.flush_interval));
 
-
     const start_time = Date.now();
     const producer = () => {
       if (Date.now() - this.time < start_time) {
@@ -53,8 +52,6 @@ class TestRunner {
     console.log(`end: ${Date.now()}`);
 
     await this.benchmarker.stop();
-
-    await sleep(Math.max(this.flush_interval || 5000, 1000));
 
     await Promise.all(promises);
   }

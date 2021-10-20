@@ -5,11 +5,11 @@ declare class TestRunner {
     benchmarker: Benchmarker;
     concurrency: number;
     time: number;
-    generator: ((client: Client) => (() => Promise<any>));
+    generator: ((client: Client) => Promise<any>);
     flush_function: (data: Benchmark[]) => any;
     flush_interval: number;
     client: Client;
-    constructor(concurrency: number | undefined, time: number | undefined, generator: ((client: Client) => (() => Promise<any>)), flush_function: (data: Benchmark[]) => any, flush_interval?: number);
+    constructor(concurrency: number | undefined, time: number | undefined, generator: ((client: Client) => Promise<any>), flush_function: (data: Benchmark[]) => any, flush_interval?: number);
     start(): Promise<void>;
 }
 export default TestRunner;

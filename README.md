@@ -4,6 +4,7 @@ Basically, I was looking for load testing software for work, and I couldn't help
 
 This library should be ludicrously simple to use. Classic example would be:
 
+```
 import LoadStone, { Benchmark, Client } from '../src';
 
 async function run_test() {
@@ -36,9 +37,12 @@ async function run_test() {
   await load_stone.start();
 
 }
+```
 
 At this point, running:
 
+```
 run_test();
+```
 
 would kick off a 60 second load test with 10 simultaneous workers that repeatedly hit google.com for 60 seconds.
