@@ -3,6 +3,8 @@ export interface Benchmark {
     name: string;
     start_time: number;
     end_time: number;
+    error: boolean;
+    error_message: string;
 }
 declare class Benchmarker {
     run_id: string;
