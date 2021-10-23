@@ -20,7 +20,7 @@ class Benchmarker {
     this.running = false;
   }
 
-  async benchmark(name: string, funct: Function) {
+  async benchmark(name: string, funct: Function): Promise<any> {
     const start_time = Date.now();
     let error = false;
     let error_message = '';

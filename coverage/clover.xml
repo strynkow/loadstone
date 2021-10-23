@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1634689001516" clover="3.2.0">
-  <project timestamp="1634689001516" name="All files">
-    <metrics statements="87" coveredstatements="71" conditionals="8" coveredconditionals="3" methods="33" coveredmethods="15" elements="128" coveredelements="89" complexity="0" loc="87" ncloc="87" packages="3" files="6" classes="6"/>
+<coverage generated="1634949389109" clover="3.2.0">
+  <project timestamp="1634949389110" name="All files">
+    <metrics statements="103" coveredstatements="84" conditionals="40" coveredconditionals="29" methods="35" coveredmethods="17" elements="178" coveredelements="130" complexity="0" loc="103" ncloc="103" packages="3" files="6" classes="6"/>
     <package name="src">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="index.ts" path="/Users/fela/loadstone/src/index.ts">
@@ -13,38 +13,38 @@
       </file>
     </package>
     <package name="src.classes">
-      <metrics statements="74" coveredstatements="58" conditionals="8" coveredconditionals="3" methods="29" coveredmethods="11"/>
+      <metrics statements="90" coveredstatements="71" conditionals="40" coveredconditionals="29" methods="31" coveredmethods="13"/>
       <file name="Benchmarker.ts" path="/Users/fela/loadstone/src/classes/Benchmarker.ts">
         <metrics statements="30" coveredstatements="26" conditionals="4" coveredconditionals="2" methods="4" coveredmethods="4"/>
         <line num="1" count="1" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
-        <line num="24" count="60" type="stmt"/>
-        <line num="25" count="60" type="stmt"/>
-        <line num="26" count="60" type="stmt"/>
-        <line num="27" count="60" type="stmt"/>
-        <line num="28" count="60" type="stmt"/>
-        <line num="29" count="60" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="24" count="80" type="stmt"/>
+        <line num="25" count="80" type="stmt"/>
+        <line num="26" count="80" type="stmt"/>
+        <line num="27" count="80" type="stmt"/>
+        <line num="28" count="80" type="stmt"/>
+        <line num="29" count="80" type="stmt"/>
         <line num="31" count="0" type="stmt"/>
         <line num="32" count="0" type="stmt"/>
-        <line num="34" count="60" type="stmt"/>
-        <line num="36" count="60" type="stmt"/>
-        <line num="45" count="60" type="cond" truecount="0" falsecount="1"/>
+        <line num="34" count="80" type="stmt"/>
+        <line num="36" count="80" type="stmt"/>
+        <line num="45" count="80" type="cond" truecount="0" falsecount="1"/>
         <line num="46" count="0" type="stmt"/>
-        <line num="49" count="60" type="stmt"/>
-        <line num="53" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="54" count="1" type="stmt"/>
-        <line num="55" count="1" type="stmt"/>
-        <line num="56" count="13" type="stmt"/>
-        <line num="57" count="13" type="stmt"/>
-        <line num="58" count="13" type="stmt"/>
-        <line num="59" count="13" type="stmt"/>
-        <line num="60" count="60" type="stmt"/>
-        <line num="62" count="13" type="cond" truecount="1" falsecount="0"/>
-        <line num="63" count="6" type="stmt"/>
+        <line num="49" count="80" type="stmt"/>
+        <line num="53" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="54" count="2" type="stmt"/>
+        <line num="55" count="2" type="stmt"/>
+        <line num="56" count="26" type="stmt"/>
+        <line num="57" count="26" type="stmt"/>
+        <line num="58" count="26" type="stmt"/>
+        <line num="59" count="26" type="stmt"/>
+        <line num="60" count="80" type="stmt"/>
+        <line num="62" count="26" type="cond" truecount="1" falsecount="0"/>
+        <line num="63" count="8" type="stmt"/>
         <line num="66" count="0" type="stmt"/>
-        <line num="72" count="1" type="stmt"/>
+        <line num="72" count="2" type="stmt"/>
         <line num="77" count="1" type="stmt"/>
       </file>
       <file name="Client.ts" path="/Users/fela/loadstone/src/classes/Client.ts">
@@ -68,34 +68,50 @@
         <line num="62" count="1" type="stmt"/>
       </file>
       <file name="TestRunner.ts" path="/Users/fela/loadstone/src/classes/TestRunner.ts">
-        <metrics statements="27" coveredstatements="27" conditionals="4" coveredconditionals="1" methods="3" coveredmethods="3"/>
+        <metrics statements="43" coveredstatements="40" conditionals="36" coveredconditionals="27" methods="5" coveredmethods="5"/>
         <line num="1" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
-        <line num="26" count="1" type="stmt"/>
-        <line num="27" count="1" type="stmt"/>
-        <line num="28" count="1" type="stmt"/>
-        <line num="29" count="1" type="stmt"/>
-        <line num="30" count="1" type="stmt"/>
-        <line num="31" count="1" type="stmt"/>
-        <line num="32" count="1" type="stmt"/>
-        <line num="33" count="1" type="stmt"/>
-        <line num="37" count="1" type="stmt"/>
-        <line num="38" count="1" type="stmt"/>
-        <line num="40" count="1" type="stmt"/>
-        <line num="41" count="1" type="stmt"/>
-        <line num="42" count="61" type="cond" truecount="1" falsecount="0"/>
-        <line num="43" count="60" type="stmt"/>
-        <line num="44" count="60" type="stmt"/>
-        <line num="46" count="1" type="stmt"/>
-        <line num="48" count="1" type="stmt"/>
-        <line num="50" count="1" type="stmt"/>
-        <line num="51" count="1" type="stmt"/>
-        <line num="52" count="1" type="stmt"/>
+        <line num="44" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="47" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="50" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
         <line num="54" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
         <line num="56" count="1" type="stmt"/>
-        <line num="60" count="1" type="stmt"/>
+        <line num="58" count="1" type="cond" truecount="7" falsecount="2"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="60" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="63" count="1" type="cond" truecount="7" falsecount="2"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="65" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="68" count="1" type="stmt"/>
+        <line num="69" count="1" type="stmt"/>
+        <line num="70" count="1" type="stmt"/>
+        <line num="74" count="1" type="stmt"/>
+        <line num="75" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="76" count="1" type="stmt"/>
+        <line num="78" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="79" count="1" type="stmt"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="83" count="1" type="stmt"/>
+        <line num="84" count="21" type="stmt"/>
+        <line num="85" count="21" type="cond" truecount="1" falsecount="0"/>
+        <line num="86" count="20" type="stmt"/>
+        <line num="87" count="20" type="stmt"/>
+        <line num="89" count="1" type="stmt"/>
+        <line num="91" count="1" type="stmt"/>
+        <line num="93" count="1" type="stmt"/>
+        <line num="96" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="97" count="1" type="stmt"/>
+        <line num="99" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="100" count="1" type="stmt"/>
+        <line num="103" count="1" type="stmt"/>
+        <line num="107" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.utils">
@@ -103,17 +119,17 @@
       <file name="sleep.ts" path="/Users/fela/loadstone/src/utils/sleep.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
-        <line num="2" count="73" type="stmt"/>
+        <line num="2" count="86" type="stmt"/>
       </file>
       <file name="string.ts" path="/Users/fela/loadstone/src/utils/string.ts">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="20" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
+        <line num="4" count="21" type="stmt"/>
+        <line num="5" count="21" type="stmt"/>
+        <line num="6" count="420" type="stmt"/>
+        <line num="8" count="21" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
+        <line num="12" count="21" type="stmt"/>
       </file>
     </package>
   </project>

@@ -1,6 +1,6 @@
 {
   "name": "loadstone",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "load testing",
   "main": "lib/index.js",
   "scripts": {
